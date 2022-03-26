@@ -1,0 +1,23 @@
+[
+  {
+    "id": "97727d92-ed19-453f-b0fc-ed35ebe142c4",
+    "name": "Grand Caravan",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "a55c5afb-8497-4708-98f1-aa7372d53d60",
+    "name": "Grand Caravan",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "4f5acef7-7533-4edf-a70d-e585e5032ea9",
+    "name": "Fiesta",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  }
+]
