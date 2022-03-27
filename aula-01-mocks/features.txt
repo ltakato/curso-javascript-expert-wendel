@@ -1,3 +1,0 @@
-the file should have id, name, profession and age fields
-this file should not be empty
-the fil should not be longer than 4 lines including headers
