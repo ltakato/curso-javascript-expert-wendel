@@ -3,8 +3,6 @@
 // the difference is that here is about "processes" and Builder is about "objects construction"
 const { evaluateRegex } = require('./util');
 
-const Person = require('./person');
-
 class TextProcessorFluentAPI {
   // private property!
   #content;
@@ -46,11 +44,6 @@ class TextProcessorFluentAPI {
   removeEmptyCharacters() {
     const trimSpaces = evaluateRegex(/^\s+|\s+$|\n/g);
     this.#content = this.#content.map(line => line.map(item => item.replace(trimSpaces, '')));
-    return this;
-  }
-
-  mapPerson() {
-    this.#content = this.#content.map(line => new Person(line));
     return this;
   }
 
